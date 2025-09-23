@@ -1,0 +1,400 @@
+---
+:name: Cam
+:food: Mac
+:inventory:
+- Mac
+- bronze statuette
+- silver necklace
+- gold watch
+- crystal ball
+- pendulum
+- mysterious flowers
+- mysterious book
+- strange device
+- sandalwood incense
+- box of matches
+:chest1_opened: true
+:visited_rooms:
+  red_room: 5
+  grey_room: 3
+  yellow_room: 4
+  purple_room: 4
+  pink_room: 4
+  blue_room: 5
+  white_room: 3
+  black_room: 4
+  library: 3
+  attic: 4
+  diamond_room: 8
+  brown_room: 3
+  emerald_room: 9
+  ruby_room: 3
+  observatory: 10
+:stay_counts:
+  grey_room: 1
+  purple_room: 4
+  library: 4
+  emerald_room: 5
+  brown_room: 4
+  observatory: 2
+:bathe_count:
+  baths: 5
+:sleep_counts:
+  diamond_room: 1
+:eat_counts: {}
+:fountain_checked: true
+:day_or_night: night
+:current_room: observatory
+:gems_inserted:
+  :ruby: true
+  :diamond: true
+  :emerald: true
+:easter_egg_found:
+  :gold_watch: true
+  :silver_necklace: true
+  :bronze_statuette: true
+  :crystal_ball: false
+  :pendulum: true
+  :mysterious_flowers: true
+  crystal_ball: true
+:doors_unlocked:
+  attic: true
+  baths: true
+  greenhouse: true
+  diamond_room: true
+  emerald_room: true
+  ruby_room: true
+:previous_room: diamond_room
+:ritual_items:
+  strange_device: true
+  mysterious_book: true
+  sandalwood_incense: true
+  box_of_matches: true
+:ritual_items_collected: true
+:sigil_appeared: true
+:ritual_ready: true
+:travel_log:
+- :from: outside
+  :to: main_hall
+  :time: '2025-09-10 22:04:01'
+- :from: main_hall
+  :to: red_room
+  :time: '2025-09-10 22:04:26'
+- :from: red_room
+  :to: grey_room
+  :time: '2025-09-10 22:05:11'
+- :from: grey_room
+  :to: red_room
+  :time: '2025-09-10 22:06:03'
+- :from: red_room
+  :to: main_hall
+  :time: '2025-09-10 22:06:06'
+- :from: main_hall
+  :to: yellow_room
+  :time: '2025-09-10 22:06:17'
+- :from: yellow_room
+  :to: purple_room
+  :time: '2025-09-10 22:06:42'
+- :from: purple_room
+  :to: pink_room
+  :time: '2025-09-10 22:08:49'
+- :from: pink_room
+  :to: baths
+  :time: '2025-09-10 22:09:19'
+- :from: baths
+  :to: courtyard
+  :time: '2025-09-10 22:12:30'
+- :from: courtyard
+  :to: baths
+  :time: '2025-09-10 22:14:17'
+- :from: baths
+  :to: pink_room
+  :time: '2025-09-10 22:14:22'
+- :from: pink_room
+  :to: purple_room
+  :time: '2025-09-10 22:14:26'
+- :from: purple_room
+  :to: yellow_room
+  :time: '2025-09-10 22:14:30'
+- :from: yellow_room
+  :to: main_hall
+  :time: '2025-09-10 22:14:34'
+- :from: main_hall
+  :to: blue_room
+  :time: '2025-09-10 22:14:42'
+- :from: blue_room
+  :to: white_room
+  :time: '2025-09-10 22:15:36'
+- :from: white_room
+  :to: black_room
+  :time: '2025-09-10 22:16:04'
+- :from: black_room
+  :to: library
+  :time: '2025-09-10 22:17:18'
+- :from: library
+  :to: attic
+  :time: '2025-09-10 22:20:08'
+- :from: attic
+  :to: diamond_room
+  :time: '2025-09-10 22:21:18'
+- :from: diamond_room
+  :to: attic
+  :time: '2025-09-10 22:22:34'
+- :from: attic
+  :to: library
+  :time: '2025-09-10 22:22:37'
+- :from: library
+  :to: black_room
+  :time: '2025-09-10 22:22:42'
+- :from: black_room
+  :to: white_room
+  :time: '2025-09-10 22:22:46'
+- :from: white_room
+  :to: blue_room
+  :time: '2025-09-10 22:22:50'
+- :from: blue_room
+  :to: main_hall
+  :time: '2025-09-10 22:22:54'
+- :from: main_hall
+  :to: red_room
+  :time: '2025-09-10 22:23:09'
+- :from: red_room
+  :to: grey_room
+  :time: '2025-09-10 22:23:12'
+- :from: grey_room
+  :to: brown_room
+  :time: '2025-09-10 22:23:15'
+- :from: brown_room
+  :to: greenhouse
+  :time: '2025-09-10 22:23:48'
+- :from: greenhouse
+  :to: garden
+  :time: '2025-09-10 22:24:08'
+- :from: garden
+  :to: emerald_room
+  :time: '2025-09-10 22:26:10'
+- :from: emerald_room
+  :to: observatory
+  :time: '2025-09-10 22:30:33'
+- :from: diamond_room
+  :to: observatory
+  :time: '2025-09-10 22:30:58'
+- :from: emerald_room
+  :to: garden
+  :time: '2025-09-10 22:31:15'
+- :from: garden
+  :to: greenhouse
+  :time: '2025-09-10 22:31:19'
+- :from: greenhouse
+  :to: brown_room
+  :time: '2025-09-10 22:31:30'
+- :from: brown_room
+  :to: forest
+  :time: '2025-09-10 22:32:24'
+- :from: forest
+  :to: garden
+  :time: '2025-09-10 22:32:43'
+- :from: outside
+  :to: main_hall
+  :time: '2025-09-10 22:32:59'
+- :from: main_hall
+  :to: yellow_room
+  :time: '2025-09-10 22:33:02'
+- :from: yellow_room
+  :to: purple_room
+  :time: '2025-09-10 22:33:08'
+- :from: purple_room
+  :to: pink_room
+  :time: '2025-09-10 22:33:11'
+- :from: pink_room
+  :to: baths
+  :time: '2025-09-10 22:33:19'
+- :from: baths
+  :to: courtyard
+  :time: '2025-09-10 22:33:47'
+- :from: courtyard
+  :to: ruby_room
+  :time: '2025-09-10 22:33:58'
+- :from: observatory
+  :to: observatory
+  :time: '2025-09-10 22:35:00'
+- :from: observatory
+  :to: ruby_room
+  :time: '2025-09-10 22:35:29'
+- :from: ruby_room
+  :to: observatory
+  :time: '2025-09-10 22:35:34'
+- :from: observatory
+  :to: emerald_room
+  :time: '2025-09-10 22:35:38'
+- :from: emerald_room
+  :to: observatory
+  :time: '2025-09-10 22:35:45'
+- :from: observatory
+  :to: emerald_room
+  :time: '2025-09-10 22:35:51'
+- :from: emerald_room
+  :to: observatory
+  :time: '2025-09-10 22:35:55'
+- :from: observatory
+  :to: emerald_room
+  :time: '2025-09-15 21:52:22'
+- :from: observatory
+  :to: emerald_room
+  :time: '2025-09-15 21:52:27'
+- :from: emerald_room
+  :to: garden
+  :time: '2025-09-15 21:52:49'
+- :from: garden
+  :to: greenhouse
+  :time: '2025-09-15 21:53:05'
+- :from: greenhouse
+  :to: garden
+  :time: '2025-09-15 21:53:46'
+- :from: garden
+  :to: emerald_room
+  :time: '2025-09-15 21:54:00'
+- :from: emerald_room
+  :to: garden
+  :time: '2025-09-15 21:54:04'
+- :from: garden
+  :to: emerald_room
+  :time: '2025-09-15 21:54:17'
+- :from: emerald_room
+  :to: observatory
+  :time: '2025-09-15 21:54:22'
+- :from: observatory
+  :to: diamond_room
+  :time: '2025-09-15 21:54:27'
+- :from: diamond_room
+  :to: attic
+  :time: '2025-09-15 21:54:31'
+- :from: attic
+  :to: diamond_room
+  :time: '2025-09-15 21:54:38'
+- :from: diamond_room
+  :to: observatory
+  :time: '2025-09-15 21:54:42'
+- :from: observatory
+  :to: diamond_room
+  :time: '2025-09-15 21:54:46'
+- :from: diamond_room
+  :to: observatory
+  :time: '2025-09-15 21:54:51'
+- :from: observatory
+  :to: emerald_room
+  :time: '2025-09-15 21:54:55'
+- :from: emerald_room
+  :to: garden
+  :time: '2025-09-15 21:55:00'
+- :from: garden
+  :to: greenhouse
+  :time: '2025-09-15 21:55:04'
+- :from: greenhouse
+  :to: brown_room
+  :time: '2025-09-15 21:55:26'
+- :from: brown_room
+  :to: grey_room
+  :time: '2025-09-15 21:55:30'
+- :from: grey_room
+  :to: red_room
+  :time: '2025-09-15 21:55:33'
+- :from: red_room
+  :to: main_hall
+  :time: '2025-09-15 21:55:37'
+- :from: main_hall
+  :to: yellow_room
+  :time: '2025-09-15 21:55:51'
+- :from: yellow_room
+  :to: purple_room
+  :time: '2025-09-15 21:55:55'
+- :from: purple_room
+  :to: pink_room
+  :time: '2025-09-15 21:55:58'
+- :from: pink_room
+  :to: baths
+  :time: '2025-09-15 21:56:06'
+- :from: baths
+  :to: courtyard
+  :time: '2025-09-15 21:56:27'
+- :from: courtyard
+  :to: outside
+  :time: '2025-09-15 21:58:43'
+- :from: outside
+  :to: main_hall
+  :time: '2025-09-15 22:00:28'
+- :from: main_hall
+  :to: blue_room
+  :time: '2025-09-15 22:00:36'
+- :from: blue_room
+  :to: white_room
+  :time: '2025-09-15 22:00:40'
+- :from: white_room
+  :to: black_room
+  :time: '2025-09-15 22:00:43'
+- :from: black_room
+  :to: library
+  :time: '2025-09-15 22:00:46'
+- :from: library
+  :to: attic
+  :time: '2025-09-15 22:00:51'
+- :from: attic
+  :to: diamond_room
+  :time: '2025-09-15 22:00:59'
+- :from: diamond_room
+  :to: observatory
+  :time: '2025-09-15 22:01:04'
+:view_telescope:
+  observatory: 4
+:view_desk:
+  observatory: 7
+:ritual_score: 0
+:timestamp: '2025-09-15 22:04:13'
+:timer:
+  :accumulated: 2846.464
+:visit_counts_by_time:
+  outside:
+    day: 2
+    night: 1
+  main_hall:
+    day: 5
+    night: 2
+  baths:
+    day: 3
+    night: 1
+  courtyard:
+    day: 2
+    night: 1
+  greenhouse:
+    day: 2
+    night: 2
+  garden:
+    day: 2
+    night: 4
+  forest:
+    day: 1
+    night: 0
+:stay_counts_by_time:
+  outside:
+    day: 4
+    night: 4
+  baths:
+    day: 5
+    night: 0
+  courtyard:
+    day: 4
+    night: 4
+  main_hall:
+    day: 1
+    night: 0
+  garden:
+    day: 3
+    night: 0
+  greenhouse:
+    night: 3
+:forest_found: true
+:last_bathe_visit:
+  baths: 1
+:new_game_plus_count: 0
+:new_game_plus_item: ''
+:just_loaded_game: false

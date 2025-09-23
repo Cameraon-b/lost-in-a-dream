@@ -1,0 +1,232 @@
+current directory: C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/curses-1.5.3/ext/curses
+C:/Ruby34-x64/bin/ruby.exe extconf.rb
+rm -f *.o
+rm -f *.exe
+rm -f *.dll
+rm -f *.a
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/addch.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/addchstr.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/addstr.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/attr.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/beep.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/bkgd.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/border.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/clear.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/color.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/delch.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/deleteln.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/deprec.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/getch.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/getstr.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/getyx.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/inch.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/inchstr.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/initscr.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/inopts.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/insch.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/insstr.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/instr.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/kernel.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/keyname.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/mouse.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/move.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/outopts.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/overlay.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/pad.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/panel.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/printw.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/refresh.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/scanw.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/scr_dump.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/scroll.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/slk.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/termattr.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/terminfo.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/touch.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/util.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/window.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE ../pdcurses/debug.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE  ../wincon/pdcclip.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE  ../wincon/pdcdisp.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE  ../wincon/pdcgetsc.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE  ../wincon/pdckbd.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE  ../wincon/pdcscrn.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE  ../wincon/pdcsetsc.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE  ../wincon/pdcutil.c
+ar rcv pdcurses.a addch.o addchstr.o addstr.o attr.o beep.o bkgd.o border.o clear.o color.o delch.o deleteln.o deprec.o getch.o getstr.o getyx.o inch.o inchstr.o initscr.o inopts.o insch.o insstr.o instr.o kernel.o keyname.o mouse.o move.o outopts.o overlay.o pad.o panel.o printw.o refresh.o scanw.o scr_dump.o scroll.o slk.o termattr.o terminfo.o touch.o util.o window.o debug.o pdcclip.o pdcdisp.o pdcgetsc.o pdckbd.o pdcscrn.o pdcsetsc.o pdcutil.o 
+a - addch.o
+a - addchstr.o
+a - addstr.o
+a - attr.o
+a - beep.o
+a - bkgd.o
+a - border.o
+a - clear.o
+a - color.o
+a - delch.o
+a - deleteln.o
+a - deprec.o
+a - getch.o
+a - getstr.o
+a - getyx.o
+a - inch.o
+a - inchstr.o
+a - initscr.o
+a - inopts.o
+a - insch.o
+a - insstr.o
+a - instr.o
+a - kernel.o
+a - keyname.o
+a - mouse.o
+a - move.o
+a - outopts.o
+a - overlay.o
+a - pad.o
+a - panel.o
+a - printw.o
+a - refresh.o
+a - scanw.o
+a - scr_dump.o
+a - scroll.o
+a - slk.o
+a - termattr.o
+a - terminfo.o
+a - touch.o
+a - util.o
+a - window.o
+a - debug.o
+a - pdcclip.o
+a - pdcdisp.o
+a - pdcgetsc.o
+a - pdckbd.o
+a - pdcscrn.o
+a - pdcsetsc.o
+a - pdcutil.o
+cp pdcurses.a panel.a
+gcc -std=gnu17 -O4 -Wall -pedantic -I.. -DPDC_WIDE -otestcurs.exe ../demos/testcurs.c pdcurses.a 
+gcc -std=gnu17 -O4 -Wall -pedantic -I.. -DPDC_WIDE -oozdemo.exe ../demos/ozdemo.c pdcurses.a 
+gcc -std=gnu17 -O4 -Wall -pedantic -I.. -DPDC_WIDE -oxmas.exe ../demos/xmas.c pdcurses.a 
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE -I../demos -otuidemo.o ../demos/tuidemo.c
+gcc -std=gnu17 -c -O4 -Wall -pedantic -I.. -DPDC_WIDE -I../demos -otui.o ../demos/tui.c
+gcc  -otuidemo.exe tuidemo.o tui.o pdcurses.a 
+gcc -std=gnu17 -O4 -Wall -pedantic -I.. -DPDC_WIDE -ofirework.exe ../demos/firework.c pdcurses.a 
+gcc -std=gnu17 -O4 -Wall -pedantic -I.. -DPDC_WIDE -onewtest.exe ../demos/newtest.c pdcurses.a 
+gcc -std=gnu17 -O4 -Wall -pedantic -I.. -DPDC_WIDE -optest.exe ../demos/ptest.c pdcurses.a 
+gcc -std=gnu17 -O4 -Wall -pedantic -I.. -DPDC_WIDE -orain.exe ../demos/rain.c pdcurses.a 
+gcc -std=gnu17 -O4 -Wall -pedantic -I.. -DPDC_WIDE -oworm.exe ../demos/worm.c pdcurses.a 
+strip *.exe
+> make -f Makefile.mng clean all _w64=1 WIDE=Y DLL=N CC="gcc -std=gnu17"
+checking for tgetent() in -ltinfow... no
+checking for tgetent() in -ltinfo... no
+checking for tgetent() in -ltermcap... no
+checking for pdcurses.h... yes
+checking for initscr() in -lpdcurses... yes
+header: pdcurses.h
+library: pdcurses
+checking for beep()... yes
+checking for bkgd()... yes
+checking for bkgdset()... yes
+checking for curs_set()... yes
+checking for deleteln()... yes
+checking for doupdate()... yes
+checking for flash()... yes
+checking for getbkgd()... yes
+checking for getnstr()... yes
+checking for init()... no
+checking for init in pdcurses.h... no
+checking for isendwin()... yes
+checking for keyname()... yes
+checking for keypad()... yes
+checking for resizeterm()... no
+checking for resizeterm in pdcurses.h... no
+checking for scrl()... yes
+checking for set()... no
+checking for set in pdcurses.h... no
+checking for setscrreg()... yes
+checking for ungetch()... yes
+checking for addnwstr()... yes
+checking for wattroff()... yes
+checking for wattron()... yes
+checking for wattrset()... yes
+checking for wbkgd()... yes
+checking for wbkgdset()... yes
+checking for wdeleteln()... yes
+checking for wgetnstr()... yes
+checking for wresize()... yes
+checking for wscrl()... yes
+checking for wsetscrreg()... yes
+checking for werase()... yes
+checking for redrawwin()... yes
+checking for waddnwstr()... yes
+checking for mvderwin()... yes
+checking for derwin()... yes
+checking for touchwin()... yes
+checking for untouchwin()... yes
+checking for wtouchln()... yes
+checking for is_linetouched()... yes
+checking for is_wintouched()... yes
+checking for def_prog_mode()... yes
+checking for reset_prog_mode()... yes
+checking for timeout()... yes
+checking for wtimeout()... yes
+checking for nodelay()... yes
+checking for init_color()... yes
+checking for wcolor_set()... yes
+checking for use_default_colors()... yes
+checking for assume_default_colors()... yes
+checking for newpad()... yes
+checking for unget_wch()... yes
+checking for get_wch()... yes
+checking for wget_wch()... yes
+checking for PDC_get_key_modifiers()... yes
+checking for chgat()... yes
+checking for wchgat()... yes
+checking for newterm()... yes
+checking for convertible type of chtype... unsigned long long
+checking for _XOPEN_SOURCE_EXTENDED... no
+checking for ESCDELAY in pdcurses.h... no
+checking for TABSIZE in pdcurses.h... yes
+checking for COLORS in pdcurses.h... yes
+checking for COLOR_PAIRS in pdcurses.h... yes
+checking for sizeof(WINDOW) is available... no
+checking for sizeof(MEVENT) is available... no
+checking for sizeof(ITEM) is available... no
+checking for sizeof(MENU) is available... no
+checking for sizeof(FIELD) is available... no
+checking for sizeof(FORM) is available... no
+checking for sizeof(SCREEN) is available... no
+creating extconf.h
+creating Makefile
+
+current directory: C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/curses-1.5.3/ext/curses
+make DESTDIR\= sitearchdir\=./.gem.20250627-19516-of92w3 sitelibdir\=./.gem.20250627-19516-of92w3 clean
+
+current directory: C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/curses-1.5.3/ext/curses
+make DESTDIR\= sitearchdir\=./.gem.20250627-19516-of92w3 sitelibdir\=./.gem.20250627-19516-of92w3
+generating curses-x64-mingw-ucrt.def
+compiling curses.c
+In file included from curses.c:24:
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/curses-1.5.3/vendor/PDCurses/pdcurses.h:229:9: warning: 'MOUSE_MOVED' redefined
+  229 | #define MOUSE_MOVED             (Mouse_status.changes & PDC_MOUSE_MOVED)
+      |         ^~~~~~~~~~~
+In file included from C:/Ruby34-x64/msys64/ucrt64/include/wincon.h:16,
+                 from C:/Ruby34-x64/msys64/ucrt64/include/windows.h:74,
+                 from C:/Ruby34-x64/msys64/ucrt64/include/winsock2.h:23,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/win32.h:36,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/internal/dosish.h:38,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/defines.h:78,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby/ruby.h:25,
+                 from C:/Ruby34-x64/include/ruby-3.4.0/ruby.h:38,
+                 from curses.c:19:
+C:/Ruby34-x64/msys64/ucrt64/include/wincontypes.h:73:9: note: this is the location of the previous definition
+   73 | #define MOUSE_MOVED 0x0001
+      |         ^~~~~~~~~~~
+linking shared-object curses.so
+
+current directory: C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/curses-1.5.3/ext/curses
+make DESTDIR\= sitearchdir\=./.gem.20250627-19516-of92w3 sitelibdir\=./.gem.20250627-19516-of92w3 install
+/usr/bin/install -c -m 0755 curses.so ./.gem.20250627-19516-of92w3
+
+current directory: C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/curses-1.5.3/ext/curses
+make DESTDIR\= sitearchdir\=./.gem.20250627-19516-of92w3 sitelibdir\=./.gem.20250627-19516-of92w3 clean

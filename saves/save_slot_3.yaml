@@ -1,0 +1,55 @@
+---
+:name: Cam
+:food: Mac
+:inventory:
+- Mac
+- ice cream
+:chest1_opened: false
+:visited_rooms: {}
+:stay_counts: {}
+:bathe_count: {}
+:sleep_counts: {}
+:eat_counts: {}
+:fountain_checked: false
+:day_or_night: day
+:current_room: outside
+:gems_inserted:
+  :ruby: false
+  :diamond: false
+  :emerald: false
+:easter_egg_found:
+  :gold_watch: false
+  :silver_necklace: false
+  :bronze_statuette: false
+  :crystal_ball: false
+  :pendulum: false
+  :mysterious_flowers: false
+:doors_unlocked:
+  attic: false
+  baths: false
+  greenhouse: false
+:previous_room:
+:ritual_items:
+  strange_device: false
+  mysterious_book: false
+  sandalwood_incense: false
+  box_of_matches: false
+:ritual_items_collected: false
+:sigil_appeared: false
+:ritual_ready: false
+:travel_log: []
+:view_telescope: {}
+:view_desk: {}
+:ritual_score: 0
+:timestamp: '2025-08-27 21:04:35'
+:timer:
+  :accumulated: 26.959
+:visit_counts_by_time:
+  outside:
+    day: 1
+:stay_counts_by_time: {}
+:forest_found: false
+:last_bathe_visit: {}
+:new_game_plus_count: 2
+:new_game_plus_item: ice cream
+:just_loaded_game: true

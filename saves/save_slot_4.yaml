@@ -1,0 +1,86 @@
+---
+:name: Cam
+:food: Mac
+:inventory:
+- Mac
+- gold watch
+:chest1_opened: false
+:visited_rooms:
+  outside: 1
+  main_hall: 3
+  blue_room: 2
+  white_room: 2
+  black_room: 2
+  library: 2
+  attic: 1
+:stay_counts:
+  main_hall: 4
+  blue_room: 3
+  white_room: 4
+  black_room: 1
+  library: 5
+:bathe_count: {}
+:sleep_counts: {}
+:eat_counts: {}
+:fountain_checked: false
+:day_or_night: day
+:current_room: attic
+:gems_inserted:
+  :ruby: false
+  :diamond: false
+  :emerald: false
+:easter_egg_found:
+  :gold_watch: false
+  :silver_necklace: false
+  :bronze_statuette: false
+  :crystal_ball: false
+  :pendulum: false
+  :mysterious_flowers: false
+:doors_unlocked:
+  attic: true
+  baths: false
+  greenhouse: false
+:previous_room: library
+:ritual_items:
+  strange_device: false
+  mysterious_book: false
+  sandalwood_incense: false
+  box_of_matches: false
+:ritual_items_collected: false
+:sigil_appeared: false
+:ritual_ready: false
+:travel_log:
+- :from: outside
+  :to: main_hall
+  :time: '2025-08-05 21:28:54'
+- :from: main_hall
+  :to: blue_room
+  :time: '2025-08-05 21:30:26'
+- :from: blue_room
+  :to: main_hall
+  :time: 2025-08-05 21:33:29.971751000 -05:00
+- :from: main_hall
+  :to: blue_room
+  :time: '2025-08-05 22:06:17'
+- :from: blue_room
+  :to: white_room
+  :time: '2025-08-05 22:07:02'
+- :from: white_room
+  :to: black_room
+  :time: '2025-08-05 22:12:19'
+- :from: black_room
+  :to: library
+  :time: '2025-08-05 22:13:35'
+- :from: library
+  :to: attic
+  :time: '2025-08-05 22:19:13'
+- :from: black_room
+  :to: library
+  :time: '2025-08-05 22:19:42'
+- :from: library
+  :to: attic
+  :time: '2025-08-05 22:20:22'
+:view_telescope: {}
+:view_desk: {}
+:ritual_score: 0
+:timestamp: '2025-08-05 22:25:23'
