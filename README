@@ -1,0 +1,24 @@
+#Lost In A Dream
+
+*A surreal text adventure that takes you through your subconcious mind...*
+
+## About the Game
+Lost In A dream is a terminal-based text adventure game built in Ruby.
+You find yourself in a dreamy castle, full of mysterious rooms, hidden secrets, and a ritual that reveals the truth.
+
+It is a project that blends magic with code, featuring ASCII art, multiple branching paths, and over a dozen endings based on player choices.
+
+## How to play
+1. Clone this repository:
+  ```bash
+  git clone https://github.com/Cameraon-b/lost-in-a-dream.git
+  cd lost-in-a-dream
+  ruby main.rb
+
+2. Or, open lost-in-a-dream in file explorer, find the file "run_game" and double click.
+
+Features
+[under construction]
+
+Developer Tools [for testing & tinkering]
+[under construction]
