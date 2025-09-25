@@ -6,7 +6,7 @@
 Lost In A dream is a terminal-based text adventure game built in Ruby.
 You find yourself in a dreamy castle, full of mysterious rooms, hidden secrets, and a ritual that reveals the truth.
 
-It is a project that tries to blend dreams with code, featuring ASCII art, multiple branching paths, and over a dozen endings based on player choices.
+It is a project that tries to blend dreams with code, featuring ASCII art, multiple branching paths, and over ten endings based on player choices.
 
 ## How to play
 1. Clone this repository:
@@ -18,7 +18,31 @@ It is a project that tries to blend dreams with code, featuring ASCII art, multi
 2. Or, open lost-in-a-dream in file explorer, in the main folder find the file "run_game" and double click.
 
 Features
-[under construction]
+22 unique rooms to explore
+
+10 different endings depending on your path
+
+Hundreds of choices that shape the journey
+
+Dozens of secrets waiting to be uncovered
+
+Save system so you can return to your dream later
+
 
 Developer Tools [for testing & tinkering]
-[under construction]
+Access with "~" in choice menu 
+1. Add any item to player inventory
+2. Jump to different rooms
+3. Change time of day
+4. View travel log (order of rooms traversed)
+5. Change internal variable ritual score to get a different ending
+6. Jump to end sequence
+7. Roll credits
+8. Reset basic room visit counter
+9. Reset basic room stay counter
+10. Reset stay in room that tracks day/night
+11. Reset visit in room that tracks day/night
+12. Reset desk views in observatory
+13. Reset telescope views in observatory
+14. Toggle different flags(internal variables) items_found, doors_unlocked, ect.
+15. View time played
